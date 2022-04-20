@@ -22,5 +22,7 @@
         <%
             out.println("Sum of values " + sum());
         %>
+        <!-- Expression tag used for printing values directly -->
+        <h2>Value a: <%= a%></h2>
     </body>
 </html>
