@@ -10,14 +10,15 @@
         <h1>Hello World!</h1>
 
         <!--Declarative tag used to define methods and variables -->
-        <%!            
+        <%!
             int a = 10;
             int b = 20;
-            
+
             public int sum() {
                 return a + b;
             }
         %>
+        <!-- Scriptlet tag used to get trigger service method and out is already provided similar to what we have seen in servlet-->
         <%
             out.println("Sum of values " + sum());
         %>
