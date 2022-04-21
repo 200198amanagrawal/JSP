@@ -1,5 +1,7 @@
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@page import="java.util.*" %>
+<!-- page directive gives us info about page such as what it will import and what is the content type etc -->
 <!DOCTYPE html>
 <html>
     <head>
@@ -24,5 +26,6 @@
         %>
         <!-- Expression tag used for printing values directly -->
         <h2>Value a: <%= a%></h2>
+        <%@include file="header.jsp" %>
     </body>
 </html>
