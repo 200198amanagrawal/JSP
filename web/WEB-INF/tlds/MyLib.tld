@@ -25,4 +25,12 @@
         <name>mytag</name>
         <tag-class>tags.MyTagHandler</tag-class>
     </tag>
+    <tag>
+        <name>printtable</name>
+        <tag-class>tags.PrintTable</tag-class>
+        <attribute>
+            <name>number</name>
+            <required>true</required>
+        </attribute>
+    </tag>
 </taglib>

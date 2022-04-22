@@ -16,5 +16,7 @@
     <body>
         <h1>Hello World!</h1>
         <t:mytag></t:mytag>
+        <!-- using attributes -->
+        <t:printtable number="10"></t:printtable>
     </body>
 </html>
